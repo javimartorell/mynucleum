@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Grid, GridItem, Text, Highlight, Button } from '@chakra-ui/react';
 import { BaseSetup } from './base-setup';
 import { CardSetup } from './card-setup';

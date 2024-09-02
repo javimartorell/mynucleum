@@ -12,6 +12,7 @@ import { Card as NucleumCard } from '../assets/expansions/card-sets.interface';
 import { useEffect, useState } from 'react';
 import { City } from '../assets/expansions/base-game.enum';
 import CityDisplay from './CityDisplay';
+import React from 'react';
 
 interface CardSetupProps {
   selectedPlayerCount: number;
@@ -229,7 +230,7 @@ export const CardSetup = ({
             <Box display="flex" alignItems="center">
               {cards
                 .slice(-3) // Get the last three cards
-                .filter((card) => card.publicBuilding) // Filter out cards without a value for city
+                .filter((card) => card.publicBuilding || card.publicBuilding3Plus) // Filter out cards without a value for city or publicBuilding3Plus
                 .slice(0, selectedAutomasCount) // Take the first selectedAutomasCount cards from the filtered list
                 .map((card, index) => (
                   <AutomaBox

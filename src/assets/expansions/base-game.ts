@@ -1,9 +1,9 @@
-import { Cities } from './base-game.enum';
-import { Expansion } from './card-sets.interface';
+import { Cities } from "./base-game.enum";
+import { Expansion } from "./card-sets.interface";
 
 export const baseGame: Expansion = {
-  name: 'Base Game',
-  key: 'base',
+  name: "Base Game",
+  key: "base",
   victoryPointTarget: 70,
   baseSetupCounts: {
     1: {
@@ -29,7 +29,7 @@ export const baseGame: Expansion = {
   },
   cards: [
     {
-      key: 'S1',
+      key: "S1",
       publicBuilding: Cities.Leipzig,
       nucleumToken: Cities.Grimma,
       noBuildings: {
@@ -42,7 +42,7 @@ export const baseGame: Expansion = {
       },
     },
     {
-      key: 'S2',
+      key: "S2",
       publicBuilding: Cities.Leipzig,
       nucleumToken: Cities.Zittau,
       noBuildings: {
@@ -53,7 +53,7 @@ export const baseGame: Expansion = {
       },
     },
     {
-      key: 'S3',
+      key: "S3",
       publicBuilding: Cities.Grimma,
       nucleumToken: Cities.Zittau,
       noBuildings: {
@@ -70,7 +70,7 @@ export const baseGame: Expansion = {
       },
     },
     {
-      key: 'S4',
+      key: "S4",
       publicBuilding: Cities.Chemnitz,
       nucleumToken: Cities.Glashutte,
       noBuildings: {
@@ -82,7 +82,7 @@ export const baseGame: Expansion = {
       },
     },
     {
-      key: 'S5',
+      key: "S5",
       publicBuilding: Cities.Freiberg,
       nucleumToken: Cities.Zittau,
       noBuildings: {
@@ -94,7 +94,7 @@ export const baseGame: Expansion = {
       },
     },
     {
-      key: 'S6',
+      key: "S6",
       publicBuilding: Cities.Dresden,
       nucleumToken: Cities.Plauen,
       noBuildings: {
@@ -113,7 +113,7 @@ export const baseGame: Expansion = {
       },
     },
     {
-      key: 'S7',
+      key: "S7",
       publicBuilding: Cities.Bautzen,
       nucleumToken: Cities.Plauen,
       noBuildings: {
@@ -126,7 +126,7 @@ export const baseGame: Expansion = {
       },
     },
     {
-      key: 'S8',
+      key: "S8",
       publicBuilding: Cities.Dresden,
       nucleumToken: Cities.Glashutte,
       noBuildings: {
@@ -144,7 +144,7 @@ export const baseGame: Expansion = {
       },
     },
     {
-      key: 'S9',
+      key: "S9",
       publicBuilding: Cities.Marienberg,
       nucleumToken: Cities.Grimma,
       noBuildings: {
@@ -157,7 +157,7 @@ export const baseGame: Expansion = {
       },
     },
     {
-      key: 'S10',
+      key: "S10",
       publicBuilding: Cities.Zwickau,
       nucleumToken: Cities.Plauen,
       noBuildings: {
@@ -174,7 +174,7 @@ export const baseGame: Expansion = {
       },
     },
     {
-      key: 'S11',
+      key: "S11",
       publicBuilding3Plus: Cities.Karlsbad,
       nucleumToken: Cities.Zittau,
       noBuildings: {
@@ -191,7 +191,7 @@ export const baseGame: Expansion = {
       },
     },
     {
-      key: 'S12',
+      key: "S12",
       publicBuilding: Cities.Praha,
       nucleumToken: Cities.Glashutte,
       noBuildings: {
@@ -203,7 +203,7 @@ export const baseGame: Expansion = {
       },
     },
     {
-      key: 'S13',
+      key: "S13",
       nucleumToken: Cities.Grimma,
       noBuildings: {
         2: [

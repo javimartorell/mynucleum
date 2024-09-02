@@ -1,4 +1,4 @@
-import { Button } from '@chakra-ui/react';
+import { Button } from "@chakra-ui/react";
 
 interface PlayerCountButtonProps {
   selectedPlayerCount: number;
@@ -13,9 +13,9 @@ export const PlayerCountButton = ({
 }: PlayerCountButtonProps) => {
   return (
     <Button
-      size={{ base: 'md', md: 'lg' }}
+      size={{ base: "md", md: "lg" }}
       colorScheme="orange"
-      variant={selectedPlayerCount === playerCountOption ? 'solid' : 'outline'}
+      variant={selectedPlayerCount === playerCountOption ? "solid" : "outline"}
       onClick={() => setPlayerCount(playerCountOption)}
     >
       {playerCountOption}

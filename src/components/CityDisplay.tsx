@@ -1,5 +1,5 @@
-import { Box, Text } from '@chakra-ui/react';
-import { City } from '../assets/expansions/base-game.enum';
+import { Box, Text } from "@chakra-ui/react";
+import { City } from "../assets/expansions/base-game.enum";
 
 interface CityDisplayProps {
   city: City | undefined;

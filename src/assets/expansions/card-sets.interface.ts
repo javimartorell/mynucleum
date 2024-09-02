@@ -1,4 +1,4 @@
-import { City } from './base-game.enum';
+import { City } from "./base-game.enum";
 
 export interface Card {
   key: string;

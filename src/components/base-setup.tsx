@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { CheckCircleIcon } from '@chakra-ui/icons';
+import { useEffect, useState } from "react";
+import { CheckCircleIcon } from "@chakra-ui/icons";
 import {
   Card,
   CardBody,
@@ -13,11 +13,11 @@ import {
   ListIcon,
   Text,
   Highlight,
-} from '@chakra-ui/react';
+} from "@chakra-ui/react";
 import {
   BaseSetupCounts,
   Expansion,
-} from '../assets/expansions/card-sets.interface';
+} from "../assets/expansions/card-sets.interface";
 
 interface BaseSetupProps {
   selectedPlayerCount: number;
@@ -134,7 +134,7 @@ export const BaseSetup = ({
                     />
                     <Text>
                       <Highlight
-                        query={['70', '75']}
+                        query={["70", "75"]}
                         styles={{ fontWeight: 800 }}
                       >
                         {`VP Flag token under ${expansion.victoryPointTarget} points`}

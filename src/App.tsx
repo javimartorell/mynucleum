@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import './App.css';
-import { Box, ButtonGroup, Heading, Image } from '@chakra-ui/react';
-import { ExpansionButton, PlayerCountButton, SetupBox } from './components';
-import { expansions } from './assets/expansions';
+import { useState } from "react";
+import "./App.css";
+import { Box, ButtonGroup, Heading, Image } from "@chakra-ui/react";
+import { ExpansionButton, PlayerCountButton, SetupBox } from "./components";
+import { expansions } from "./assets/expansions";
 
 const PlayerCountButtons = ({
   selectedPlayerCount,
@@ -28,12 +28,12 @@ const PlayerCountButtons = ({
 function App() {
   const [playerCount, setPlayerCount] = useState(2);
   const [automasCount, setAutomasCount] = useState(1);
-  const [expansion, setExpansion] = useState('');
+  const [expansion, setExpansion] = useState("");
 
   const resetGame = () => {
     setPlayerCount(2);
     setAutomasCount(1);
-    setExpansion('');
+    setExpansion("");
   };
 
   return (

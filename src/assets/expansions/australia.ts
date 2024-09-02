@@ -1,9 +1,9 @@
-import { Cities } from './australia.enum';
-import { Expansion } from './card-sets.interface';
+import { Cities } from "./australia.enum";
+import { Expansion } from "./card-sets.interface";
 
 export const australia: Expansion = {
-  name: 'Australia',
-  key: 'aus',
+  name: "Australia",
+  key: "aus",
   victoryPointTarget: 75,
   baseSetupCounts: {
     1: {
@@ -29,7 +29,7 @@ export const australia: Expansion = {
   },
   cards: [
     {
-      key: 'AUS1',
+      key: "AUS1",
       publicBuilding: Cities.Brisbane,
       nucleumToken: Cities.Geelong,
       boats: {
@@ -45,7 +45,7 @@ export const australia: Expansion = {
       },
     },
     {
-      key: 'AUS2',
+      key: "AUS2",
       publicBuilding: Cities.Brisbane,
       nucleumToken: Cities.Toowoomba,
       boats: {
@@ -66,7 +66,7 @@ export const australia: Expansion = {
       },
     },
     {
-      key: 'AUS3',
+      key: "AUS3",
       publicBuilding: Cities.GoldCoast,
       nucleumToken: Cities.LucasHeights,
       boats: {
@@ -87,7 +87,7 @@ export const australia: Expansion = {
       },
     },
     {
-      key: 'AUS4',
+      key: "AUS4",
       publicBuilding: Cities.Sydney,
       nucleumToken: Cities.Mildura,
       boats: {
@@ -108,7 +108,7 @@ export const australia: Expansion = {
       },
     },
     {
-      key: 'AUS5',
+      key: "AUS5",
       publicBuilding: Cities.Sydney,
       nucleumToken: Cities.Geelong,
       boats: {
@@ -128,7 +128,7 @@ export const australia: Expansion = {
       },
     },
     {
-      key: 'AUS6',
+      key: "AUS6",
       publicBuilding: Cities.Wollongong,
       nucleumToken: Cities.Toowoomba,
       boats: {
@@ -144,7 +144,7 @@ export const australia: Expansion = {
       },
     },
     {
-      key: 'AUS7',
+      key: "AUS7",
       publicBuilding: Cities.Melbourne,
       nucleumToken: Cities.LucasHeights,
       boats: {
@@ -164,7 +164,7 @@ export const australia: Expansion = {
       },
     },
     {
-      key: 'AUS8',
+      key: "AUS8",
       publicBuilding: Cities.Melbourne,
       nucleumToken: Cities.Mildura,
       boats: {
@@ -179,7 +179,7 @@ export const australia: Expansion = {
       },
     },
     {
-      key: 'AUS9',
+      key: "AUS9",
       publicBuilding: Cities.Adelaide,
       nucleumToken: Cities.Mildura,
       boats: {
@@ -199,7 +199,7 @@ export const australia: Expansion = {
       },
     },
     {
-      key: 'AUS10',
+      key: "AUS10",
       publicBuilding: Cities.WaggaWagga,
       nucleumToken: Cities.Toowoomba,
       boats: {
@@ -214,7 +214,7 @@ export const australia: Expansion = {
       },
     },
     {
-      key: 'AUS11',
+      key: "AUS11",
       publicBuilding: Cities.PortPirie,
       nucleumToken: Cities.LucasHeights,
       boats: {
@@ -229,7 +229,7 @@ export const australia: Expansion = {
       },
     },
     {
-      key: 'AUS12',
+      key: "AUS12",
       publicBuilding: Cities.Newcastle,
       nucleumToken: Cities.Mildura,
       boats: {
@@ -250,7 +250,7 @@ export const australia: Expansion = {
       },
     },
     {
-      key: 'AUS13',
+      key: "AUS13",
       nucleumToken: Cities.Geelong,
       boats: {
         2: [2, 3, 4],

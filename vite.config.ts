@@ -40,5 +40,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/nucleum-setup/',
+  base: '/mynucleum/',
 });

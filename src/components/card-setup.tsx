@@ -75,7 +75,7 @@ const AutomaBox = ({
     </Box>
     <Box>
       <Text pt="2" fontSize="sm">
-        <CityDisplay city={card.publicBuilding} playerCount={playerCount} />
+        <CityDisplay city={card.publicBuilding || card.publicBuilding3Plus} playerCount={playerCount} />
       </Text>
     </Box>
   </Box>
